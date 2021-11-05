@@ -1,10 +1,13 @@
 {
 	"folders": [
 		{
-			"path": "modular-site-2.0"
+			"path": "."
 		}
 	],
 	"settings": {
-		"workbench.colorTheme": "Dracula",
+		"intelephense.environment.phpVersion": "7.2.32",
+		"php.validate.executablePath": "C:\\PHP\\php.exe",
+		"php.validate.enable": true,
+    "php.validate.run": "onType",
 	}
 }

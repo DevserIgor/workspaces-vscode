@@ -1,0 +1,55 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"emmet.includeLanguages": {
+			"javascript": "javascriptreact"
+		},
+		"emmet.syntaxProfiles": {
+				"javascript": "jsx"
+		},
+		"javascript.updateImportsOnFileMove.enabled": "never",
+    "typescript.updateImportsOnFileMove.enabled": "never",
+		"files.exclude": {
+			"**/.git": true,
+			"**/.svn": true,
+			"**/.hg": true,
+			"**/CVS": true,
+			"**/.DS_Store": true,
+			// "**/node_modules": true
+		},
+		"files.associations": {
+			".sequelizerc": "javascript",
+			".stylelintrc": "json",
+			".prettierrc": "ts",
+			"*.tsx": "typescriptreact",
+			".env": "env",
+			".env.example": "env",
+			"ts": "ts"
+		},
+
+		"editor.defaultFormatter": "esbenp.prettier-vscode",
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[typescript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+		"material-icon-theme.activeIconPack": "nest",
+    "javascript.inlayHints.parameterNames.enabled": "all",
+    "typescript.inlayHints.parameterNames.enabled": "all",
+    "typescript.inlayHints.variableTypes.enabled": true,
+    "typescript.inlayHints.propertyDeclarationTypes.enabled": true,
+    "typescript.inlayHints.parameterTypes.enabled": true,
+    "typescript.inlayHints.functionLikeReturnTypes.enabled": true,
+    "typescript.inlayHints.enumMemberValues.enabled": true,
+    "javascript.inlayHints.propertyDeclarationTypes.enabled": true,
+    "javascript.inlayHints.variableTypes.enabled": true,
+    "javascript.inlayHints.parameterTypes.enabled": true,
+    "javascript.inlayHints.functionLikeReturnTypes.enabled": true,
+    "javascript.inlayHints.enumMemberValues.enabled": true
+	}
+}

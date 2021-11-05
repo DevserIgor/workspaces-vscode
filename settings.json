@@ -1,0 +1,115 @@
+{
+	// Fixas
+	"terminal.integrated.fontSize": 14,
+	"workbench.iconTheme": "material-icon-theme",
+	"workbench.startupEditor": "newUntitledFile",
+	"workbench.colorTheme": "Dracula",
+	"workbench.editor.labelFormat": "short",
+	"workbench.sideBar.location": "left",
+	"workbench.editor.decorations.badges": true,
+	"workbench.editor.decorations.colors": true,
+
+	"polacode.backgroundColor": "#6633CC",
+
+	"git.autofetch": true,
+
+	"editor.tabSize": 2,
+	"editor.fontSize": 16,
+	"editor.lineHeight": 26,
+	"editor.fontFamily": "Fira Code",
+	"editor.fontLigatures": true,
+	"editor.semanticHighlighting.enabled": false,
+	"editor.inlineSuggest.enabled": true,
+	"editor.renderLineHighlight": "gutter",// Aplica um sinal visual na esquerda da linha selecionada
+	"editor.rulers": [80,120],
+	"editor.parameterHints.enabled": false,
+	"editor.suggestSelection": "first",
+	"editor.codeActionsOnSave": {
+			"source.fixAll.eslint": true
+	},
+	"editor.formatOnSave": false,
+	
+	"explorer.compactFolders": false,
+	// Aplica linhas verticais para lembrar de quebrar linha em códigos muito grandes
+	"css.enabledLanguages": [
+			"html",
+			"php"
+	],
+	"extensions.ignoreRecommendations": true,
+	"files.autoGuessEncoding": true,
+	"breadcrumbs.enabled": true,
+	"explorer.confirmDragAndDrop": false,
+	"explorer.confirmDelete": false,
+	
+	"files.associations": {
+			"*.php": "php,html,css",
+			".env": "env",
+			".env.example": "env",
+	},
+
+	"search.searchEditor.doubleClickBehaviour": "openLocationToSide",
+	
+	"screencastMode.onlyKeyboardShortcuts": true,
+	
+	"workbench.colorCustomizations": {
+			"tab.activeBorder": "#ECECEC",
+			"tab.inactiveForeground": "#ECECEC",
+			"sideBar.foreground": "#c0c0c0",
+			"sideBarTitle.foreground": "#EEEE",
+			"list.hoverForeground": "#ffffff",
+	},
+	
+	
+	"auto-rename-tag.activationOnLanguage": [
+			"*"
+	],
+	
+	//icons
+	"material-icon-theme.folders.associations": {
+			"infra": "app",
+			"entities": "class",
+			"domain": "class",
+			"schemas": "class",
+			"typeorm": "database",
+			"repositories": "mappings",
+			"http": "container",
+			"migrations": "tools",
+			"modules": "components",
+			"implementations": "core",
+			"dtos": "typescript",
+			"fakes": "mock",
+			"websockets": "pipe",
+			"protos": "pipe",
+			"grpc": "pipe",
+			"providers": "include",
+			"subscribers": "messages",
+			"useCases": "controller",
+			"kafka": "scripts",
+			"mappers": "meta",
+			"_shared": "shared",
+			"eslint-config": "tools",
+			"kube": "kubernetes"
+	},
+	"material-icon-theme.files.associations": {
+			"ormconfig.json": "database",
+			"tsconfig.json": "tune",
+			"*.proto": "3d",
+			"*.webpack.js": "webpack"
+	},
+	"material-icon-theme.languages.associations": {
+			"dotenv": "tune"
+	},
+
+	"gitlens.advanced.messages": {
+			"suppressCommitHasNoPreviousCommitWarning": true
+	},
+
+	
+	"[env]": {
+			"editor.defaultFormatter": "IronGeek.vscode-env"
+	},
+	
+
+	
+	
+}
