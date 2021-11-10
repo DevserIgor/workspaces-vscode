@@ -5,6 +5,7 @@
 		}
 	],
 	"settings": {
+		"workbench.colorTheme": "Dracula",
 		"emmet.includeLanguages": {
 			"javascript": "javascriptreact"
 		},

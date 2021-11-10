@@ -1,10 +1,9 @@
 {
 	"folders": [
-		{
-			"path": "."
-		}
+		{"path": "../modular-portal-do-cliente-2.0"}
 	],
 	"settings": {
+		"workbench.colorTheme": "Dracula",
 		"intelephense.environment.phpVersion": "7.2.32",
 		"php.validate.executablePath": "C:\\PHP\\php.exe",
 		"php.validate.enable": true,
