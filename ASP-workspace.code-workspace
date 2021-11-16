@@ -1,0 +1,19 @@
+{
+	"folders": [
+		{
+			"path": "../clinica-total-sistema/clinica-total-sistema-v3"
+		}
+	],
+	"settings": {
+		"intelephense.environment.phpVersion": "7.2.32",
+		"php.validate.executablePath": "C:\\PHP\\php.exe",
+		"php.validate.enable": true,
+    "php.validate.run": "onType",
+		"workbench.colorTheme": "One Dark Pro Flat",
+		"files.associations": {		
+			".env": "env",
+			".env.example": "env",
+			"*.asp": "html,asp,css"
+	},
+	}
+}
