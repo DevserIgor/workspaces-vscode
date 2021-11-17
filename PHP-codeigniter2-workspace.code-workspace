@@ -1,6 +1,7 @@
 {
 	"folders": [
-		{"path": "../modular-portal-do-cliente-2.0"}
+		{"path": "../modular-portal-do-cliente-2.0"},
+		{"path": "../modular-intranet-2.0"}
 	],
 	"settings": {
 		"workbench.colorTheme": "Dracula",
